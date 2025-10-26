@@ -54,9 +54,9 @@ Abre el navegador en la URL que muestre Vite (por defecto: http://localhost:5173
 
 ## Capturas de pantalla
 
-![Desayunos](./desayunos.png)
-![Almuerzos](./almuerzos.png)
-![Cenas](./cenas.png)
+![Desayunos](./public/desayunos.png)
+![Almuerzos](./public/almuerzos.png)
+![Cenas](./public/cenas.png)
 
 ## Notas
 - Los precios son generados aleatoriamente en `src/utils/price.js`.
