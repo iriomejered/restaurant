@@ -1,6 +1,6 @@
 # Menú de Restaurante (React + fetch)
 
-Pequeña SPA en React que muestra un menú de restaurante consumiendo la API pública de TheMealDB. Los precios se generan aleatoriamente (la API no incluye precios).
+Pequeña aplicación en React que muestra un menú de restaurante consumiendo la API pública de TheMealDB. Los precios se generan aleatoriamente (la API no incluye precios).
 
 ## Características
 - Páginas: Inicio, Desayunos, Almuerzos, Cenas.
@@ -13,7 +13,6 @@ Pequeña SPA en React que muestra un menú de restaurante consumiendo la API pú
 ## API
 Se usa TheMealDB:
 - Búsqueda general: `https://www.themealdb.com/api/json/v1/1/search.php?s=`
-- Detalle por id: `https://www.themealdb.com/api/json/v1/1/lookup.php?i={id}`
 
 ## Estructura (resumen)
 - src/
@@ -52,15 +51,12 @@ Abre el navegador en la URL que muestre Vite (por defecto: http://localhost:5173
 - `/desayunos` — Desayunos
 - `/almuerzos` — Almuerzos
 - `/cenas` — Cenas
-- `/meals/:id` — Detalle de plato
 
 ## Capturas de pantalla
 
-![Desayunos](/desayunos.png)
-![Almuerzos](/almuerzos.png)
-![Cenas](/cenas.png)
-
-(Se muestran con rutas relativas desde `public/`. Tamaño recomendado: 1280×720 o 800×450.)
+![Desayunos](./desayunos.png)
+![Almuerzos](./almuerzos.png)
+![Cenas](./cenas.png)
 
 ## Notas
 - Los precios son generados aleatoriamente en `src/utils/price.js`.
